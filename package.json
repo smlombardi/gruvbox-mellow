@@ -2,8 +2,8 @@
   "name": "gruvbox-mellow",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "Inspired by the VIm and Sublime Theme",
-  "repository": "https://github.com/atom/gruvbox-mellow",
+  "description": "Inspired by the Sublime Text Theme",
+  "repository": "https://github.com/smlombardi/gruvbox-mellow",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
