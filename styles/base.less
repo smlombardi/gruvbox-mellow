@@ -65,7 +65,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .entity {
-  color: #8ec07c;
+  color: @green;
 }
 
 .keyword.operator.comparison, .keyword.operator, .keyword.operator.symbolic, .keyword.operator.string, .keyword.operator.assignment, .keyword.operator.arithmetic, .keyword.operator.class, .keyword.operator.key, .keyword.operator.logical {
@@ -89,8 +89,9 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .comment {
-  font-style: italic;
-  color: #928374;
+  //font-style: italic;
+  // color: #928374;
+  color: #928C86;
 }
 
 .string.regexp .constant.character.escape {
@@ -135,18 +136,15 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .support.class {
-  color: #8ec07c;
+  color: @green;
 }
-
-
-// .meta.tag, .meta.tag .entity {
-//   color: #8ec07c;
-// }
-
 
 
 .constant.other.color.rgb-value {
   color: #83a598;
+   .punctuation.definition {
+    color: inherit;
+  }
 }
 
 .meta.selector.css .entity.name.tag {
@@ -162,7 +160,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .support.type.property-name.css {
-  color: #8ec07c;
+  color: @green;
 }
 
 .meta.preprocessor.at-rule .keyword.control.at-rule {
@@ -186,6 +184,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: #83a598;
 }
 
+//  MARKDOWN
+
 .markup.deleted {
   color: #fdf4c1;
   background-color: #fa5c4b;
@@ -198,7 +198,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .markup.inserted {
   color: #fdf4c1;
-  background-color: #8ec07c;
+  background-color: @green;
 }
 
 .markup.bold {
@@ -211,11 +211,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .markup.heading {
   font-weight: bold;
-  color: #8ec07c;
+  color: @green;
 }
 
 .entity.name.type.class.php {
-  color: #8ec07c;
+  color: @green;
 }
 
 .keyword.other.phpdoc {
@@ -235,32 +235,21 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .storage.type.dired.item.directory, .dired.item.directory {
-  color: #8ec07c;
+  color: @green;
 }
 
 .entity.name.tag.block.any.html, .meta.tag.inline.any.html, .entity.name.tag.inline.any.html, .meta.tag.block.any.html {
-  color: #ad6765;
+  color: @green;
 }
 
 .entity.other.attribute-name.html {
-  color: rgba(168, 140, 75, .9);
+  color: #6fa598;
 }
 .constant.character.entity.html, .punctuation.definition.entity.html {
   color: #d5859b;
 }
 .string.quoted.double.html {
-  color: rgba(187, 183, 69, 0.85);
+  color: #b8bb26;
 }
 
 
-.sublimelinter.mark.error {
-  color: #D02000;
-}
-
-.sublimelinter.mark.warning {
-  color: #DDB700;
-}
-
-.sublimelinter.gutter-mark {
-  color: #FFFFFF;
-}

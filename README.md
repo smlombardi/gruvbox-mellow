@@ -1,5 +1,12 @@
 # gruvbox-mellow theme
 
-A short description of your theme.
+Inspirec by the Sublime Text 3 theme I found [here](https://bitbucket.org/martinradimec/gruvbox)
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+###HTML
+![image](https://raw.githubusercontent.com/smlombardi/inspired-github/master/screenshots/html.jpg)
+
+###JS
+![image](https://raw.githubusercontent.com/smlombardi/inspired-github/master/screenshots/js.jpg)
+
+###SCSS
+![image](https://raw.githubusercontent.com/smlombardi/inspired-github/master/screenshots/scss.jpg)
